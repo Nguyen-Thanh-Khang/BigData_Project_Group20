@@ -1,0 +1,20 @@
+# Bỏ qua tất cả file dữ liệu CSV, Excel, nén
+*.csv
+*.xlsx
+*.zip
+*.parquet
+
+# Bỏ qua thư mục data (Không đẩy data lên mạng)
+data/raw/
+data/processed/
+
+# Bỏ qua file model đã train (quá nặng)
+*.pkl
+*.h5
+*.model
+
+# Bỏ qua rác của hệ điều hành và Python
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
